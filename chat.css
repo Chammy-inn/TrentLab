@@ -1,0 +1,281 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+  
+}
+
+.logo{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.hr1{
+    margin-top: 20px;
+    border: 0.5px solid#d9dddf98;
+}
+
+.pl{
+    margin-left: 30px;
+    font-family: "Epilogue", serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #545454;
+}
+
+.s{
+    font-family: "Epilogue", serif;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-weight: 400;
+    color: #545454;
+   
+}
+
+.sp{
+    font-family: "Epilogue", serif;
+    margin-left: 140px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: -50px;
+    color: #545454;
+   
+}
+.profile-image{
+    margin-left: 1130px;
+    margin-top: -100px;
+
+}
+.gel{
+    font-family: "Epilogue", serif;
+   font-size: 14px;
+   color: #939393;
+   font-weight: 400;
+   margin-left: 30px;
+   margin-top: 50px;
+}
+.sidebar {
+    width: 200px;  
+    height: 100vh;  
+    background-color: white; 
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+
+
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 13px;
+    border-radius: 4px;
+  }
+
+  .sidebar a:hover {
+    background-color: #e2e8f0;  
+  }
+
+ 
+  .sidebar a.active {
+    background-color:#207B54;  
+    color: #fff;
+  }
+
+  
+  .sidebar a img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .welcome{
+    margin-left: 240px;
+    margin-top: -600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 50px;
+ 
+   padding-bottom: 100px;
+   padding-top: 72px;
+   border: 0.5px solid#d9dddf98;
+   background-color: #F9F9F9;
+  }
+   
+.over{
+font-family: "Epilogue", serif;
+font-weight: bold;
+font-size: 30px;
+color: #101010;
+margin-left: 28px;
+margin-top: 5px;
+}
+   
+.chat-card {
+    width: 255px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Epilogue", serif;
+    margin-left: 28px;
+    padding-bottom: 500px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    outline: none;
+    font-family: "Epilogue", serif;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .chat-item:first-child {
+    border-top: none;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-info {
+    flex-grow: 1;
+  }
+  
+  .name {
+    font-weight: bold;
+  font-family: "Epilogue", serif;
+  }
+  
+  .message-preview {
+    color: #888;
+    font-size: 12px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    margin-top: -30px;
+  }
+  
+  .time {
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #888;
+  }
+  
+  .muted-icon {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .unread-dot {
+    color: #B65735;
+    font-size: 40px;
+  }
+
+  .name1{
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    
+  }
+  .name2{
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+ 
+  }
+  .name3{
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .message-card {
+    width: 790px;
+    background-color: #fff;
+    border-radius: 15px;
+   
+    text-align: center;
+    padding-top: 260px;
+    padding-bottom: 280px;
+    margin-left: 300px;
+    font-family: "Epilogue", serif;
+    margin-top: -834px;
+    
+  }
+  
+  .icon-container {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  .chat-icon {
+    font-size: 24px;
+    color: #555; 
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0 5px;
+    font-family: "Epilogue", serif;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  
+  p {
+    color: #545454;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    margin-top: -20px;
+  }
+  
+  .send-button {
+    background-color: #154734;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    
+  }
+  
+  .send-button:hover {
+    background-color: #0b4f3b; 
+  }
+  
+  
+  
+
+
+
+
+ 
+ 
+
