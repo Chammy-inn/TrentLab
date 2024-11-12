@@ -106,7 +106,7 @@
     font-weight: lighter;
     line-height: 50px;
  
-   padding-bottom: 100px;
+   padding-bottom: 80px;
    padding-top: 72px;
    border: 0.5px solid#d9dddf98;
    background-color: #F9F9F9;
@@ -128,7 +128,7 @@ margin-top: 5px;
     padding: 10px;
     font-family: "Epilogue", serif;
     margin-left: 28px;
-    padding-bottom: 500px;
+    padding-bottom: 210px;
   }
   
   .search-bar input {
@@ -214,11 +214,11 @@ margin-top: 5px;
     border-radius: 15px;
    
     text-align: center;
-    padding-top: 260px;
-    padding-bottom: 280px;
+    padding-top: 100px;
+    padding-bottom:180px;
     margin-left: 300px;
     font-family: "Epilogue", serif;
-    margin-top: -834px;
+    margin-top: -544px;
     
   }
   

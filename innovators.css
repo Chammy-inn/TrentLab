@@ -1,0 +1,581 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+  
+}
+
+.logo{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.hr1{
+    margin-top: 20px;
+    border: 0.5px solid#d9dddf98;
+}
+
+.pl{
+    margin-left: 30px;
+    font-family: "Epilogue", serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #545454;
+}
+
+.s{
+    font-family: "Epilogue", serif;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-weight: 400;
+    color: #545454;
+   
+}
+
+.sp{
+    font-family: "Epilogue", serif;
+    margin-left: 140px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: -50px;
+    color: #545454;
+   
+}
+.profile-image{
+    margin-left: 1130px;
+    margin-top: -100px;
+
+}
+.gel{
+    font-family: "Epilogue", serif;
+   font-size: 14px;
+   color: #939393;
+   font-weight: 400;
+   margin-left: 30px;
+   margin-top: 50px;
+}
+.sidebar {
+    width: 200px;  
+    height: 100vh;  
+    background-color: white; 
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+
+
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 13px;
+    border-radius: 4px;
+  }
+
+  .sidebar a:hover {
+    background-color: #e2e8f0;  
+  }
+
+ 
+  .sidebar a.active {
+    background-color:#207B54;  
+    color: #fff;
+  }
+
+  
+  .sidebar a img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .welcome{
+    margin-left: 240px;
+    margin-top: -600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 50px;
+ 
+   padding-bottom: 100px;
+   padding-top: 72px;
+   border: 0.5px solid#d9dddf98;
+   background-color: #F9F9F9;
+  }
+   
+.over{
+font-family: "Epilogue", serif;
+font-weight: bold;
+font-size: 30px;
+color: #101010;
+margin-left: 28px;
+margin-top: 5px;
+}
+   
+
+ 
+.ll{
+font-family: "Epilogue", serif;
+font-weight: 400;
+font-size: 13px;
+color: #101010;
+margin-left: 28px;
+margin-top: -10px;
+}
+
+.search-bar input {
+    width: 20%;
+    padding: 15px;
+    margin-left: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    outline: none;
+    font-family: "Epilogue", serif;
+    margin-top: 15px;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "Epilogue", serif;
+    height: 390px;
+    
+  }
+  
+  .card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .jj{
+    display: flex;
+    margin-top: -20px;
+  }
+  
+  .card h2 {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: "Epilogue", serif;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 17px;
+
+   
+  }
+  .badge {
+    display: inline-block;
+    background-color:#B5E5C9;
+    color: #154734;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    height: 40px;
+  }
+  .card p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    
+  }
+
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: -30px ;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+   
+  }
+  .topic {
+    background-color:#F9F9F9;
+    padding: 0px 10px;
+    font-size: 0.8em;
+    color: #333;
+    height: 35px;
+    text-align: center;
+  }
+  .message-btn {
+    background-color: #154734;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: "Epilogue", serif;
+  }
+
+ 
+   .af{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+   }
+
+ 
+.eng{   
+    margin-left: 300px;
+}
+
+.cap{
+    width: 25px !important;
+    height: 25px !important; 
+   margin-top: 15px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.container1{
+    display: flex;
+
+}
+
+
+
+.container2{
+    display: flex;
+}
+
+.card2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "Epilogue", serif;
+    height: 390px;
+    
+  }
+  
+  .card2 img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .jj2{
+    display: flex;
+    margin-top: -20px;
+  }
+  
+  .card2 h2 {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: "Epilogue", serif;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 17px;
+
+   
+  }
+  .badge2 {
+    display: inline-block;
+    background-color:#B5E5C9;
+    color: #154734;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    height: 40px;
+  }
+  .card2 p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    
+  }
+
+  .topics2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: -30px ;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+   
+  }
+  .topic2 {
+    background-color:#F9F9F9;
+    padding: 0px 10px;
+    font-size: 0.8em;
+    color: #333;
+    height: 35px;
+    text-align: center;
+  }
+  .message-btn2 {
+    background-color: #154734;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: "Epilogue", serif;
+  }
+
+ 
+   .af2{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+   }
+
+ 
+.eng2{   
+    margin-left: 300px;
+}
+
+.cap2{
+    width: 25px !important;
+    height: 25px !important; 
+   margin-top: 15px;
+   margin-left: 25px;
+   margin-right: 10px;
+}
+.container3{
+    display: flex;
+}
+
+.card3 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "Epilogue", serif;
+    height: 390px;
+    
+  }
+  
+  .card3 img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .jj3{
+    display: flex;
+    margin-top: -20px;
+  }
+  
+  .card3 h2 {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: "Epilogue", serif;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 17px;
+
+   
+  }
+  .badge3 {
+    display: inline-block;
+    background-color:#B5E5C9;
+    color: #154734;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    height: 40px;
+  }
+  .card3 p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    
+  }
+
+  .topics3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: -30px ;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+   
+  }
+  .topic3 {
+    background-color:#F9F9F9;
+    padding: 0px 10px;
+    font-size: 0.8em;
+    color: #333;
+    height: 35px;
+    text-align: center;
+  }
+  .message-btn3 {
+    background-color: #154734;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: "Epilogue", serif;
+  }
+
+ 
+   .af3{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+   }
+
+ 
+.eng3{   
+    margin-left: 300px;
+}
+
+.cap3{
+    width: 25px !important;
+    height: 25px !important; 
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 10px;
+}
+.container4{
+    display: flex;
+}
+
+.card4 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "Epilogue", serif;
+    height: 390px;
+    
+  }
+  
+  .card4 img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .jj3{
+    display: flex;
+    margin-top: -20px;
+  }
+  
+  .card4 h2 {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: "Epilogue", serif;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 17px;
+
+   
+  }
+  .badge4 {
+    display: inline-block;
+    background-color:#B5E5C9;
+    color: #154734;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+    height: 40px;
+  }
+  .card4 p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    
+  }
+
+  .topics4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: -30px ;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+   
+  }
+  .topic4 {
+    background-color:#F9F9F9;
+    padding: 0px 10px;
+    font-size: 0.8em;
+    color: #333;
+    height: 35px;
+    text-align: center;
+  }
+  .message-btn4 {
+    background-color: #154734;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: "Epilogue", serif;
+  }
+
+ 
+   .af4{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+   }
+
+ 
+.eng4{   
+    margin-left: 300px;
+}
+
+.cap4{
+    width: 25px !important;
+    height: 25px !important; 
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 10px;
+}
