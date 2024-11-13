@@ -355,3 +355,22 @@
   }
   
 
+  .card4 {
+    width: 250px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -640px;
+    position: absolute;
+    margin-left: 570px;
+    line-height: 30px;
+}
+
+.card4 p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+}

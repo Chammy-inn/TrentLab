@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.navlogo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.navlinks{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.navlinks a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-family: "Epilogue", serif;
+}
+
+.Login{
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px #154734 solid;
+    font-family: "Epilogue", serif;
+}
+.Join{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 3px;
+    padding: 13px 20px;
+    background-color:#154734 ;
+    color: white;
+    border: none;
+    font-family: "Epilogue", serif;
+}
+
+.Login a{
+    text-decoration: none;
+     color: black;
+}
+
+.Join a{
+    text-decoration: none;
+    color: white;
+}
+.Join2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.emp{
+    text-align: center;
+    font-family: "Epilogue", serif;
+    margin-top: 100px;
+    line-height: 60px;
+    font-size: 40px;
+}
+.dy{
+    text-align: center;
+    font-family: "Epilogue", serif;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.Join2{
+   margin-left: 600px;
+    margin-top: 30px;
+    padding: 3px;
+    padding: 13px 20px;
+    background-color:#154734 ;
+    color: white;
+    border: none;
+    font-family: "Epilogue", serif;
+}
+
+.pic1{
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 320px;
+    
+}
+
+.gray{
+    background-color: #F9F9F9;
+}
+
+.test{
+    text-align: center;
+    font-family: "Epilogue", serif;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+
+.quo{
+    text-align: center;
+    font-family: "Epilogue", serif;
+    margin-top: -3px;
+    line-height: 33px;
+    font-size: 25px;
+    color: #154734;
+    font-weight: 600;
+}
+
+.blur{
+    
+    position: relative;
+}
+
+.image-container {
+    width: 1300px; 
+    position: relative;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+.thr{
+    display: flex;
+    margin-top: -30px;
+}
+
+.about{
+    font-family: "Roboto Slab", serif;
+    color: #154734;
+    margin-left: 80px;
+    margin-top: 170px;
+    font-size: 30px;
+}
+
+.vis{
+    margin-left: 470px;
+    margin-top: 180px;
+    font-family: "Epilogue", serif;
+}
+
+.mis{
+    margin-left: 270px;
+    margin-top: 180px;
+    font-family: "Epilogue", serif;
+}
+
+.sec{
+    display: flex;
+    padding-top: 10px;    
+}
+
+.cre{
+    margin-left: 640px;
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+}
+.crep{
+    font-family: "Epilogue", serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 60px;
+    line-height: 25px;
+}
+
+.content1{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.cont{
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.how{
+    font-family: "Roboto Slab", serif;
+    color: #154734;
+    margin-left: 70px;
+    margin-top: 170px;
+    font-size: 30px;
+}
+
+
+.container2{
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.container2 h2{
+
+    font-family: "Roboto Slab", serif;
+    color: #545454;
+    padding-top: 40px;
+
+}
+
+.container2 h4{
+    font-weight: 400;
+    padding-top: 20px;
+    font-family: "Epilogue", serif;
+}
+
+.lappy{
+    margin-left: 560px;
+    margin-top: -500px;
+}
+
+.get{
+    background-color:  #154734;
+    margin-right: 900px;
+    width: 100px;
+height: 40px;
+border: none;
+padding: 10px;
+margin-top: 40px;
+}
+.get a{
+ text-decoration: none;
+ color: white; 
+ font-family: "Roboto Slab", serif;
+
+}
+
+.ss{
+    text-align: center;
+    font-family: "Epilogue", serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    padding-top: 50px;
+    margin-top: 60px;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+.lunc{
+    text-align: center;
+    justify-content: center;
+    font-family: "Epilogue", serif;
+    line-height: 33px;
+    font-size: 25px;
+    color: #154734;
+    font-weight: 600;
+    margin-left: -100px;
+}
+
+.alex{
+    margin-top: 30px;
+    margin-left: -70px;
+}
+
+.stu{
+    margin-left: -30px;
+    margin-top: 30px;
+    margin-left: -70px;
+}
+
+.dot{
+    margin-top: 110px;
+    margin-left: 670px;
+}
+
+.red{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-family: "Epilogue", serif;
+    font-size: 35px;
+    margin-left: -40px;
+    color: #154734;
+}
+
+.red1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Epilogue", serif;
+    font-size: 15px;
+    margin-left: -40px;
+    color: black;
+    margin-top: 1px;
+}
+
+.rex2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Join3{
+    margin-left: 260px;
+     margin-top: 30px;
+     padding: 3px;
+     padding: 13px 20px;
+     background-color:#154734 ;
+     color: white;
+     border: none;
+     font-family: "Epilogue", serif;
+ }
+ 
+.under{
+    background-color: #F9F9F9;
+    margin-left: -200px;
+    margin-top: 100px;
+}
+ .ssp{
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    line-height: 30px;
+    padding-top: 120px;
+    margin-top: 60px;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.lunch{
+    text-align: center;
+    justify-content: center;
+    font-family: "Epilogue", serif;
+    line-height: 20px;
+    font-size: 15px;
+
+    font-weight: 400;
+    padding-left: 100px;
+    margin-top: 30px;
+    
+
+}
+
+.last{
+    padding-left: 390px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #154734; 
+    color: #ffffff;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Epilogue", serif;
+
+    margin-left: -140px;
+}
+
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.Join3 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-column p, .footer-column a {
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Epilogue", serif;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 12px;
+    margin-right: 55px;
+    font-family: "Epilogue", serif;
+    color: white;
+}
