@@ -389,11 +389,19 @@
   }
 
   .menu-item:hover {
-    color: #0056b3;
+    color:  #03301f;
+  }
+  .menu-item a:hover {
+    color:  #022c1c;
   }
 
   .menu-item i {
     font-size: 16px;
     margin-right: 10px;
+    color: #666;
+  }
+
+  .menu-item a{
+    text-decoration: none;  
     color: #666;
   }

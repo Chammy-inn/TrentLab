@@ -178,11 +178,12 @@ label {
 }
 
 .error-card p {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     margin: 0 0 20px;
     font-family:  "Epilogue", serif;
     margin-top: 20px;
+    line-height: 25px;
 }
 
 
