@@ -208,7 +208,7 @@ margin-top: 5px;
     font-size: 15px;
   }
 
-  .message-card {
+  /* .message-card {
     width: 790px;
     background-color: #fff;
     border-radius: 15px;
@@ -220,7 +220,7 @@ margin-top: 5px;
     font-family: "Epilogue", serif;
     margin-top: -544px;
     
-  }
+  } */
   
   .icon-container {
     background-color: #f0f0f0;
@@ -253,6 +253,21 @@ a{
   text-decoration: none;
   color: black;
 }
+  
+.chatbox{
+    width: 900px;
+    margin-top: -490px;
+    height: 700px;
+    margin-left: 280px;
+} 
+
+
+
+
+ 
+ 
+
+
   
   
 
