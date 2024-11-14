@@ -35,17 +35,6 @@ color: #101010;
     padding-bottom: 30px;
 }
 
-.sub1{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: #545454;
-    font-family: "Epilogue", serif;
-    font-weight: 400;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    margin-top: -30px;
-}
 
 
 form {
@@ -58,15 +47,6 @@ label {
     color: #555;
     margin-top: 10px;
     margin-bottom: 5px;
-}
-
-input[type="text"] {
-    width: 30%;
-    padding: 13px;
-    margin-bottom: 13px;
-    border: 1px solid #ccc;
- margin-left: 470px;
- font-family: "Epilogue", serif;
 }
 
 input[type="email"],
@@ -87,15 +67,13 @@ input[type="password"] {
     font-size: 15px;
     border: none;
     margin-left: 470px;
-    margin-top: 35px;
-
+    margin-top: 20px;
 }
 
 .login-button a{
     text-decoration: none;
     color: white;
     font-family: "Epilogue", serif;
-    
 }
 label {
     margin-left: 470px;;
@@ -130,27 +108,26 @@ label {
     margin-bottom: 10px;
 }
 
-.agree{
-    justify-content: center;
-    align-items: center;
+.pics{
     display: flex;
-    margin-left: 470px;
-    margin-top: 15px;
-    
+    gap: 20px;
+   justify-content: center;
+   margin-top: 20px;
+   align-items: center;
 }
 
-
-.Have{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: "Epilogue", serif;
-    font-size: 13px;
-    font-weight: 400px;
-    margin-top: 30px;
+button{
+    background-color: #154734;
+    border: none;
+    margin-left: 320px;
+width: 710px;
+margin-top: 40px;
+padding: 15px;
 }
-
-.Have a{
+.sign a{
     text-decoration: none;
-    color: #154734;
+    color: white;
+    font-family: "Epilogue", serif;
+    
+   
 }

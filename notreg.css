@@ -210,3 +210,19 @@ label {
     color: white;
     font-family: "Epilogue", serif;
 }
+
+
+.Have{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Epilogue", serif;
+    font-size: 13px;
+    font-weight: 400px;
+    margin-top: 30px;
+}
+
+.Have a{
+    text-decoration: none;
+    color: #154734;
+}
